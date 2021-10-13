@@ -1,14 +1,19 @@
 * {
 	/* border: 1px solid red; */
 	box-sizing: border-box;
+}
+
+/* html {
+    scroll-behavior: smooth;
+  } */
+
+body {
+	/* height: 2000px; */
 	background-color: #24252a;
 	color: #edf0f1;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-body {
-	height: 2000px;
+        margin: 0;
 }
 
 header {
@@ -22,15 +27,18 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 5%;
+	z-index: 10;
+	background-color: #24252a;
+	/* opacity: 80%; */
 }
 
 nav h1 {
-	padding: 0px 5px 0px 8px;
-	letter-spacing: 5px;
+	/* padding: 0px 5px 0px 8px; */
+	/* letter-spacing: 5px; */
 	font-size: 36px;
 	font-weight: 600;
-	background: linear-gradient(120deg, #0095ff 0%, #cc00ff 100%);
-	border-radius: 10px;
+	/* background: linear-gradient(120deg, #0095ff 0%, #cc00ff 100%); */
+	/* border-radius: 10px; */
 }
 
 nav ul {
@@ -45,10 +53,77 @@ nav ul li {
 nav ul li a {
 	font-family: "lucida console", sans-serif;
 	font-size: 16px;
+	color: #edf0f1;
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
 }
 
 nav ul li a:hover {
 	color: #0088a9;
+}
+
+.abtflex {
+	display: flex;
+	padding-left: 5%;
+	padding-right: 5%;
+	align-items: center;
+}
+
+.abtpara {
+    padding-left: 5%;
+}
+
+about img {
+	filter: grayscale(100%);
+	border-radius: 200px;
+	/* position: relative;
+	top: 20px;
+	left: 5%; */
+}
+
+about main {
+	padding-left: 10%;
+}
+
+main {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.projects {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* .projectcardmain {
+    background: linear-gradient(119.36deg, #69C0FF 0%, #FF759E 100%);
+    width: 830px;
+    height: 400px;
+} */
+
+.pctext {
+	background-color: #edf0f1;
+	color: black;
+	width: fit-content;
+	height: fit-content;
+}
+.projectcardrest {
+	background: linear-gradient(119.36deg, #69c0ff 0%, #ff759e 100%);
+	width: 400px;
+	height: 400px;
+}
+
+.connect {
+	color: black;
+	background-color: #edf0f1;
+    margin-top: 5%;
+}
+
+.connect div{
+ padding: 1% 5% 1% 5%;
+}
+
+footer{
+    text-align: center;
 }
