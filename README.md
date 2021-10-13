@@ -1,2 +1,6 @@
 # landing-page
-*eventually* the page for my info/projects
+Throughout this course, this will be the website that I continually update with new projects and information about myself.
+
+The webpage will also act as a showcase of html and css ability as well as practice.
+
+![Screenshot](Screenshot.png)
