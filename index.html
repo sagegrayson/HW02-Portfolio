@@ -10,14 +10,14 @@
 		<link rel="reset" href="assets/reset.css" />
 		<link rel="stylesheet" href="assets/styles.css" />
 	</head>
-	<body>
+	<body id="top">
 		<!-- titleheader -->
 		<header>
 			<h2>Portfolio</h2>
 		</header>
 		<!-- navheader -->
 		<nav>
-			<h1>Sage Grayson</h1>
+			<a href="#top"><h1>Sage Grayson</h1></a>
 			<ul class="navlinks">
 				<li>
 					<a href="#about">about</a>
@@ -28,13 +28,12 @@
 				<li>
 					<a href="#connect">connect</a>
 				</li>
-			</ul>
+			</ul> 
 		</nav>
 		<!-- section: about -->
 		<about class="abtflex">
 			<div>
 				<img
-					id="about"
 					src="assets/images/pfp.jpg"
 					alt="Profile Picture"
 					width="300"
@@ -42,7 +41,7 @@
 				/>
 			</div>
 			<div class="abtpara">
-				<h1>About</h1>
+				<h2 class=aboutoffset id="about">About</h2>
 				<p>An aspiring coder from Orlando, FL.</p>
 				<p>
 					My interests include computers, aircraft, and engineering.
@@ -55,7 +54,7 @@
 		</about>
 		<!-- section: work -->
 		<main id="work">
-			<h1>Projects</h1>
+			<h2>Projects</h2>
 			<div class="projects">
 				<div class="projectcardrest">
 					<div class="pctext">
@@ -92,7 +91,7 @@
 		<!-- section: connect -->
 		<div class="connect" id="connect">
 			<div>
-				<h1>connect</h1>
+				<h2>connect</h2>
 				<ul>
 					<li>
 						<a href="https://github.com/sagegrayson">github</a>
